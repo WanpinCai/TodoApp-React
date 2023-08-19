@@ -1,10 +1,13 @@
-import './App.css';
-import Counter from './Components/counter/Counter'
+import './App.css'
+import TodoApp from './Components/todo/TodoApp'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <TodoApp/>
     </div>
   );
 }
